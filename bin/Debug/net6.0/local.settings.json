@@ -1,0 +1,13 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+        "AppId": "3b9b9b83-b502-45b6-aebf-ef6faf0146c9",
+        "AppSecret": "IvM8Q~e__W5APFc4Lb.OHC6RT_xv5rTCPw.oaaf6",
+        "TenantId": "ed8a4a7f-a175-42d9-977f-f7a44d7faaff",
+        "KeyVaultUrl": "https://rpappkeys.vault.azure.net/",
+        "WorkspaceId": "7FE73842-4AB5-4099-97B2-516BA8F870C5"
+    },
+    "Host": { "CORS": "*" }    
+}

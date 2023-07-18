@@ -1,0 +1,21 @@
+[
+  {
+    "name": "PbixUploadTrigger",
+    "scriptFile": "AzFuncPBIDeploy.dll",
+    "entryPoint": "AzFuncPBIDeploy.PbixUploadTrigger.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "pbixFileContent",
+        "type": "blobTrigger",
+        "direction": "In",
+        "dataType": "Binary",
+        "blobPath": "samples-workitems/{filename}",
+        "connection": "AzureWebJobsStorage"
+      }
+    ]
+  }
+]
